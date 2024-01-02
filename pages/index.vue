@@ -15,7 +15,11 @@
     <div class="inspiration">
         <p>
             Inspired by
-            <a class="hover animation" href="https://spooky-profile.w3spaces.com/" target="_blank" rel="noopener noreferrer"
+            <a
+                class="hover animation"
+                href="https://spooky-profile.w3spaces.com/"
+                target="_blank"
+                rel="noopener noreferrer"
                 >Numa</a
             >
         </p>
@@ -48,7 +52,7 @@ onMounted(async () => {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 64vh;
 }
 
 .box {
@@ -61,7 +65,7 @@ onMounted(async () => {
 p {
     margin: 0;
     text-align: center;
-    padding: 5px;
+    padding: 0;
 }
 .hover:hover {
     color: #49108b;
