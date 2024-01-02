@@ -72,7 +72,8 @@ p {
     font-weight: bold;
 }
 .animation {
-    background: url('img/animated.gif') repeat scroll 0 0%;
+    background: url('https://raw.githubusercontent.com/love-to-eat/itsbiraj.com.np/main/assets/img/animated.gif') repeat
+        scroll 0 0%;
     color: #ff0000;
     font-weight: bold;
     text-shadow: 0 0 5px #fff, 0 0 5px #f00, 1px 1px 0 #f00;
