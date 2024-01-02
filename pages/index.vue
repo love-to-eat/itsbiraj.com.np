@@ -12,6 +12,14 @@
             <p>Marital status: Unmarried</p>
         </div>
     </div>
+    <div class="inspiration">
+        <p>
+            Inspired by
+            <a class="hover animation" href="https://spooky-profile.w3spaces.com/" target="_blank" rel="noopener noreferrer"
+                >Numa</a
+            >
+        </p>
+    </div>
     <div class="last-update">
         <p>Last Update: {{ lastUpdate }}</p>
     </div>
@@ -54,5 +62,21 @@ p {
     margin: 0;
     text-align: center;
     padding: 5px;
+}
+.hover:hover {
+    color: #49108b;
+    font-weight: bold;
+}
+.animation {
+    background: url('img/animated.gif') repeat scroll 0 0%;
+    color: #ff0000;
+    font-weight: bold;
+    text-shadow: 0 0 5px #fff, 0 0 5px #f00, 1px 1px 0 #f00;
+}
+.animation:hover {
+    background: url('img/animated.gif') repeat scroll 0 0%;
+    color: #49108b;
+    font-weight: bold;
+    text-shadow: 0 0 5px #fff, 0 0 5px #49108b, 1px 1px 0 #49108b;
 }
 </style>
