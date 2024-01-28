@@ -6,7 +6,7 @@ export default defineEventHandler(async event => {
     // const { age } = await readBody(event);
 
     // API call with private key
-    const { data }: any = await $fetch('https://api.itsbiraj.com/');
+    const { data }: any = await $fetch('https://api.bishestamedia.com.np/api/biraj');
 
     return data;
 });
