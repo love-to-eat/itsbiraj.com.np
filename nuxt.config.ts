@@ -9,6 +9,7 @@ export default defineNuxtConfig({
                 { name: 'description', content: 'A simple guy from Nepal.' },
                 { name: 'keywords', content: ['Biraj Rai', 'birajrai'] },
                 { name: 'theme-color', content: '#B48EAD' },
+                { name: 'google-site-verification', content: 'SgaQmPa3-ehQyX7jNOCuOcQCLDFGECfInvCerHQEZEI' },
             ],
             link: [
                 { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' },
