@@ -52,7 +52,12 @@ export default {
     },
     async mounted() {
         try {
-            const response = await fetch('http://127.0.0.1:5500/data.json');
+            const dataUrl =
+                process.env.NODE_ENV === 'production'
+                    ? 'https://raw.githubusercontent.com/love-to-eat/itsbiraj.com.np/main/data.json'
+                    : 'http://127.0.0.1:5500/data.json';
+
+            const response = await fetch(dataUrl);
             if (response.ok) {
                 const jsonData = await response.json();
                 this.images = jsonData;
